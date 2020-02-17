@@ -9,10 +9,8 @@ def tok_to_lem_dict(input_file1, input_file2, output_file):
 
     line_index = 0
     for line in contents1:
-        print(len(line))
         word_index = 0
         for word in line:
-            #print(word_index)
             if word_index == (len(line) - 1):
                 None #doe niks
             elif word_index == 0 or word_index == (len(line) - 2):
@@ -50,7 +48,6 @@ def word_count(input_file, output_file):
     for line in contents:
         word_index = 0
         for word in line:
-            #print(word_index)
             if word in output:
                 output[word] += 1
             else:
@@ -59,7 +56,6 @@ def word_count(input_file, output_file):
         line_index += 1
 
     with open(output_file, 'w') as file:
-        #file.write(str(output))
         for word, occurences in output.items():
             file.write(word + ": " + str(occurences) + "\n")
 
@@ -114,17 +110,39 @@ def combine(input_file1, input_file2, output_file):
 
     line_index = 0
     for line in contents1:
-        print(len(line))
         word_index = 0
         for word in line:
-            #print(word_index)
             if word_index == (len(line) - 1):
                 None #doe niks
             elif word_index == 0 or word_index == (len(line) - 2):
                 output += word
-                print(word_index)
-                print(contents1[line_index][word_index])
-                print(contents1[line_index][word_index - 1])
+            else:
+                output += word + "[" + contents2[line_index][word_index] + "]"
+            output += " "
+            word_index += 1
+        output += "\n"
+        line_index += 1
+
+    with open(output_file, 'w') as file:
+        file.write(output)
+
+def combine_unknown(input_file1, input_file2, output_file):
+    contents1 = split_in_words(input_file1)
+    contents2 = split_in_words(input_file2)
+
+    output = ""
+
+    line_index = 0
+    for line in contents1:
+        word_index = 0
+        for word in line:
+            if word_index == (len(line) - 1):
+                None #doe niks
+            elif word_index == 0 or word_index == (len(line) - 2):
+                #output += word
+                None #doe niks
+            elif word != "<UNK>":
+                output += word
             else:
                 output += word + "[" + contents2[line_index][word_index] + "]"
             output += " "
@@ -142,8 +160,9 @@ lem_file = dirpath + '\\' + sys.argv[2]
 pos_file = dirpath + '\\' + sys.argv[3]
 minimal_occurrences = sys.argv[4]
 
-tok_to_lem_dict(tok_file, lem_file, dirpath + "\\nlcow.toklemdict")
-word_count(tok_file, dirpath + "\\nlcow.wc")
-filter_uncommon(tok_file, dirpath + "\\nlcow.wc", dirpath + "\\nlcow.toklemdict", dirpath + "\\nlcow.tokfiltered", minimal_occurrences)
-combine(dirpath + "\\nlcow.tokfiltered", pos_file, dirpath + "\\nlcow.end_result")
+tok_to_lem_dict(tok_file, lem_file, dirpath + "\\nlcow_tok_lem_dict.txt")
+word_count(tok_file, dirpath + "\\nlcow_word_count.txt")
+filter_uncommon(tok_file, dirpath + "\\nlcow_word_count.txt", dirpath + "\\nlcow_tok_lem_dict.txt", dirpath + "\\nlcow_uncommon_filtered.txt", minimal_occurrences)
+combine(dirpath + "\\nlcow_uncommon_filtered.txt", pos_file, dirpath + "\\nlcow_pos_added.txt")
+combine_unknown(dirpath + "\\nlcow_uncommon_filtered.txt", pos_file, dirpath + "\\nlcow_pos_unknown_added.txt")
 
