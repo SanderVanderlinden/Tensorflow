@@ -20,7 +20,9 @@ def tok_to_lem_dict(input_file1, input_file2, output_file):
         line_index += 1
 
     with open(output_file, 'w') as file:
-        file.write(str(output))
+        #file.write(str(output))
+        for word, lemma in output.items():
+            file.write(word + ": " + lemma + "\n")
 
 
 def split_in_words(input_file) :

@@ -27,7 +27,8 @@ def tok_to_lem_dict(input_file1, input_file2, output_file):
         line_index += 1
 
     with open(output_file, 'w') as file:
-        file.write(str(output))
+        for tok, lem in output.items():
+            file.write(tok + ": " + lem + "\n")
 
 
 def split_in_words(input_file) :

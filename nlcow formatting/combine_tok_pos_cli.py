@@ -1,3 +1,8 @@
+'''
+HOW TO USE?
+python combine_tok_pos_cli.py tok_file pos_file output_file
+'''
+
 import sys
 
 def combine(input_file1, input_file2, output_file):

@@ -5,9 +5,10 @@ python tok_filter_uncommon_cli.py tok_file wc_file output_file minimal_occurrenc
 
 import sys
 
-def filter_uncommon(tok_file, wc_file, output_file, n):
+def filter_uncommon(tok_file, wc_file, toklemdict_file, output_file, n):
     contents1 = split_in_words(tok_file)
     contents2 = make_dict(wc_file)
+    contents3 = make_dict(toklemdict_file)
 
     output = ""
 
@@ -17,6 +18,8 @@ def filter_uncommon(tok_file, wc_file, output_file, n):
         for word in line:
             if word != '':
                 if int(contents2[word]) >= int(n):
+                    output += word
+                elif contents3[word] != '<UNK>':
                     output += word
                 else:
                     output += "<UNK>"
@@ -59,4 +62,4 @@ def make_dict(input_file):
 
     return output
 
-filter_uncommon(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4])
+filter_uncommon(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5])
