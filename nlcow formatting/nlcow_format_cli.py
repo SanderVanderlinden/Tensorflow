@@ -141,10 +141,12 @@ def combine_unknown(input_file1, input_file2, output_file):
             elif word_index == 0 or word_index == (len(line) - 2):
                 #output += word
                 None #doe niks
-            elif word != "<UNK>":
-                output += word
-            else:
+            elif word == "<UNK>":
                 output += word + "[" + contents2[line_index][word_index] + "]"
+            elif contents2[line_index][word_index] == "num__card" or contents2[line_index][word_index] == "num__ord" :
+                output += "<NUM>"
+            else:
+                output += word
             output += " "
             word_index += 1
         output += "\n"
@@ -160,6 +162,7 @@ lem_file = dirpath + '\\' + sys.argv[2]
 pos_file = dirpath + '\\' + sys.argv[3]
 minimal_occurrences = sys.argv[4]
 
+#tok_to_lem_dict(tok_file, lem_file, "$PBS_O_WORKDIR/nlcow_tok_lem_dict.txt")
 tok_to_lem_dict(tok_file, lem_file, dirpath + "\\nlcow_tok_lem_dict.txt")
 word_count(tok_file, dirpath + "\\nlcow_word_count.txt")
 filter_uncommon(tok_file, dirpath + "\\nlcow_word_count.txt", dirpath + "\\nlcow_tok_lem_dict.txt", dirpath + "\\nlcow_uncommon_filtered.txt", minimal_occurrences)
