@@ -1,0 +1,1 @@
+ afmeting : <NUM> x <NUM> cm prijs : € <NUM> code : PLAK <NUM> Een setje van <NUM> x <NUM> labels met ijzerdraad .   

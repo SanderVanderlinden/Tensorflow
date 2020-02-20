@@ -1,0 +1,1 @@
+ * De Kraamkaravaan is gesloten op donderdag <NUM> mei <NUM> ( Hemelvaartsdag ) en maakt de brug op vrijdag <NUM> mei <NUM> .   

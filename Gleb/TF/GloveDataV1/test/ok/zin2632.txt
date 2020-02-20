@@ -1,0 +1,1 @@
+ De klassieke vraag bij kettingbotsingen van minstens <NUM> motorvoertuigen , <NUM> , <NUM> en <NUM> , is of voertuig <NUM> zelf tegen zijn voorligger , voertuig <NUM> , is opgereden , dan wel of voertuig <NUM> door zijn achterligger , voertuig <NUM> , tegen voertuig <NUM> werd gestoten .   

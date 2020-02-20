@@ -1,0 +1,1 @@
+ - maandag van <NUM> u <NUM> tot <NUM> uur en van <NUM> tot <NUM> uur .   

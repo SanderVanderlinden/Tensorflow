@@ -1,0 +1,1 @@
+ Dan verschijnt er een editor waarin je aan de slag kan : je kan de grootte van tekst en lettertype wijzigen , achtergond , afbeeldingen verwijderen en marges wijzigen .   

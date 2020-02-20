@@ -1,0 +1,1 @@
+ Bij elke verhuring wordt een waarborgsom gevraagd van € <NUM> .   

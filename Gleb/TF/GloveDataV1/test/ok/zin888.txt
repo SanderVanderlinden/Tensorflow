@@ -1,0 +1,1 @@
+ Dit jaar gemiddeld <NUM> procent , volgend jaar <NUM> % .   

@@ -1,0 +1,1 @@
+ De waarschuwing die het systeem moet geven bij het niet terugvinden van een groep kan worden ingegeven in <NUM> verschillende talen .   

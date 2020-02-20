@@ -1,0 +1,1 @@
+ De standaarddosis is <NUM> mg / m ² dag <NUM> , <NUM> , <NUM> en <NUM> van elke cyclus en een cyclus duurt <NUM> dagen .   

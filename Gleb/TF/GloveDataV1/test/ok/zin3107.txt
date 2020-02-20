@@ -1,0 +1,1 @@
+ <NUM> af Eigen berekeningen op basis van cijfergegevens afkomstig uit : de Haan , <NUM> .   

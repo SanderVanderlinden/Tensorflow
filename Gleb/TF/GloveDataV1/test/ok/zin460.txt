@@ -1,0 +1,1 @@
+ Ten slotte voorziet de server ook in een webinterface waarmee het hele systeem eenvoudig te beheren valt .   

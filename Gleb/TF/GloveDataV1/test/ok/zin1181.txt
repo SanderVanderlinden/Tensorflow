@@ -1,0 +1,1 @@
+ Dat gebeurt zowel via eenvoudige tests met een web browser als via ingewikkelde tests waarbij een serie specifieke pakketten moeten worden verstuurd .   

@@ -1,0 +1,1 @@
+ Tram <NUM> en <NUM> ( halte Lange Gasthuisstraat ) waarbij je de straat volgt tot aan het districtshuis en dan de Arenbergstraat indraait .   

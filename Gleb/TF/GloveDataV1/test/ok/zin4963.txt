@@ -1,0 +1,1 @@
+ De ideale luchtvochtigheid is ts <NUM> en <NUM> % relatieve vochtigheid .   

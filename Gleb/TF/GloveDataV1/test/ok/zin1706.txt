@@ -1,0 +1,1 @@
+ Als de optie op &quot; Streng &quot; gezet wordt , dan geven <NUM> niet overeenkomende vragen <NUM> % .   

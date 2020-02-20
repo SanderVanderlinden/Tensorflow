@@ -1,0 +1,1 @@
+ Deuren gaan open om <NUM> u , aanvang om <NUM> u .   

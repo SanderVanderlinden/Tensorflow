@@ -1,0 +1,1 @@
+ Doe de groenten in een kookpan en voeg <NUM> l water toe .   

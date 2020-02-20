@@ -1,0 +1,1 @@
+ Bijvoorbeeld &quot; VE <NUM> &quot; wil zeggen dat er in een omdoos <NUM> artikelen verpakt zijn .   

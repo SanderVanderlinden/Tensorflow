@@ -1,0 +1,1 @@
+ Alle andere &apos; normale &apos; domeinen zullen door middel van een <NUM> verwijzing worden doorverwezen naar het hoofddomein .   

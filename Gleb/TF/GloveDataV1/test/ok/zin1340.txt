@@ -1,0 +1,1 @@
+ Deelnemers moeten <NUM> sessies kiezen uit <NUM> .   

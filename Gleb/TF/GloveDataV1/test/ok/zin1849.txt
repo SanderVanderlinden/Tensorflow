@@ -1,0 +1,1 @@
+ Bij boeking van een programma waarvoor het te betalen bedrag meer dan € <NUM> bedraagt , dient er een voorschot van € <NUM> gestort te worden , uiterlijk <NUM> dagen vóór het geplande bezoek .   

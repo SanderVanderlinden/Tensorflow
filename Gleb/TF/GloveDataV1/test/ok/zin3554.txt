@@ -1,0 +1,1 @@
+ Dit concrete voorbeeld zorgt er ook voor dat we de syntax van Java stap voor stap uit de doeken kunnen doen in de volgende hoofdstukken .   

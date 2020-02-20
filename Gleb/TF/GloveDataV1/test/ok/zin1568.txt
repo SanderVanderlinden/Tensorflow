@@ -1,0 +1,1 @@
+ De ontwateringsinstallatie functioneert <NUM> h per dag gedurende <NUM> dagen per week .   

@@ -1,0 +1,1 @@
+ Arnd Geis heeft de &apos; DAC / <UNK>[adj] Student Design Contest &apos; gewonnen voor de conference paper &apos; <NUM> <NUM> mm <NUM> power scalable <NUM> <NUM> GHz CMOS DT - SDR receiver with <NUM> nd order RF <UNK>[adj] sampler &apos; .   

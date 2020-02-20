@@ -1,0 +1,1 @@
+ <NUM> kwart : <NUM> &apos; de min : <NUM> - <NUM> .   

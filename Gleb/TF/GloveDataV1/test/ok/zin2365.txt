@@ -1,0 +1,1 @@
+ De café avonden zijn steeds op een vrijdag van <NUM> u tot max <NUM> u .   

@@ -1,0 +1,1 @@
+ Resolutie = dpi ( dots per inch - puntjes per inch in de samenstelling van een beeld ) .   

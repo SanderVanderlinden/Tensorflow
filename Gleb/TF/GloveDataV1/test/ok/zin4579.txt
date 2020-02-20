@@ -1,0 +1,1 @@
+ De vloot bestaat uit <NUM> schepen : de <NUM> identieke schepen &quot; Regatta &quot; , &quot; Insignia &quot; en &quot; Nautica &quot; en de nieuwste telg &quot; Marina &quot; .   

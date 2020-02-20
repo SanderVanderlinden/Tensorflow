@@ -1,0 +1,1 @@
+ Deze studie heeft een model uitgewerkt dat steunt op deze verschillende elementen en poogt door het toevoegen van precieze scores jicht aan te tonen ( <NUM> % kans ) of uit te sluiten .   

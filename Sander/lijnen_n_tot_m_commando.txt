@@ -1,0 +1,2 @@
+voorbeeld voor 10000 tot 15000
+sed -n '1,1000p' nlcow_10000_15000.txt > duizend.txt

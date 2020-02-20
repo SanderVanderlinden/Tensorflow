@@ -1,0 +1,1 @@
+ De betaalde vrachtprijs varieert volgens het laadvermogen van het schip : hoe groter het schip , hoe lager de vrachtprijs per ton lading .   

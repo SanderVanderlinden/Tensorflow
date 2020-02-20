@@ -1,0 +1,1 @@
+ De motorhome is verzekerd voor <NUM> personen als er slaapplaatsen zijn nl. voor <NUM> personen .   

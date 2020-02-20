@@ -1,0 +1,1 @@
+ Maximum aantal deelnemers voor deze avond : <NUM> .   

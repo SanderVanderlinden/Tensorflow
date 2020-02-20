@@ -1,0 +1,1 @@
+ De temperatuur van pils dient <NUM> tot <NUM> ° C te bedragen .   

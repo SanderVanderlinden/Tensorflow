@@ -1,0 +1,1 @@
+ Als $x$ een complex getal is , dan bedoelen we met $ <UNK>[nounsg] $ de matrix <UNK>[nounpl] - xI $ , waarbij <UNK>[adj] de $ n \ times n $ - eenheidsmatrix is .   

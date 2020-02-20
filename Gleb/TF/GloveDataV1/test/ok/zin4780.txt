@@ -1,0 +1,1 @@
+ Daarbij gaan we uit van <NUM> procent fietsers , <NUM> procent gebruikers van het openbaar vervoer en <NUM> procent autogebruikers .   

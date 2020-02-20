@@ -1,0 +1,1 @@
+ Als je geraakt wordt dan ben je gedurende <NUM> - tal sekonden uitgeschakeld .   

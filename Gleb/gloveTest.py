@@ -10,8 +10,12 @@ from collections import defaultdict
 tf.compat.v1.disable_eager_execution()
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 SUBFOLDER_NAME = "glove1"
+
+#verander de volgende naa het juiste
 NUMBER_OF_DIMENSIONS = 50
-DATA_FOLDER = "Data"
+DATA_FOLDER = "PAD WAAR GLOVE ZIT"
+GLOVE_FILENAME = 'Data/vectors.txt' #verctor.txt van glove
+
 #https://github.com/guillaume-chevalier/GloVe-as-a-TensorFlow-Embedding-Layer
 
 def load_embedding_from_disks(glove_filename, with_indexes=True):
@@ -55,7 +59,6 @@ def load_embedding_from_disks(glove_filename, with_indexes=True):
         word_to_embedding_dict = defaultdict(lambda: _WORD_NOT_FOUND)
         return word_to_embedding_dict
 
-GLOVE_FILENAME = 'Data/vectors.txt'
 
 print("Loading embedding from disks...")
 word_to_index, index_to_embedding = load_embedding_from_disks(GLOVE_FILENAME, with_indexes=True)
