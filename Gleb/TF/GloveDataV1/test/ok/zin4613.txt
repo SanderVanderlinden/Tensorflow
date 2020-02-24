@@ -1,0 +1,1 @@
+ De datatarieven zijn vermeld per MB maar worden berekend per KB .   

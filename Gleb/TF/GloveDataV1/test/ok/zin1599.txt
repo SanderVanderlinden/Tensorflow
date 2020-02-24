@@ -1,0 +1,1 @@
+ De Dow Jones in New York verloor tussen <NUM> en <NUM> oktober <NUM> <NUM> % van haar waarde .   

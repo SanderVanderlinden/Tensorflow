@@ -1,0 +1,1 @@
+ De dikte van de hoofdlijn ligt steeds tussen de <NUM> / <NUM> en <NUM> / <NUM> .   

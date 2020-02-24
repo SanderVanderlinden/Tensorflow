@@ -1,0 +1,1 @@
+ De Regering stelt voor een begrotingsdoelstelling <NUM> vast te stellen van <NUM> <NUM> BEF .   

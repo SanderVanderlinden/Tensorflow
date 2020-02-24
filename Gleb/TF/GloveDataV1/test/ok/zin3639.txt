@@ -1,0 +1,1 @@
+ Drupal vinden we zeer interessant en gebruiksvriendelijk , daarom is de bedoeling van dit eindwerk om uit te zoeken of je de PATS website kan migreren naar Drupal .   

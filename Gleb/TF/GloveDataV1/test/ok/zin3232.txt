@@ -1,0 +1,1 @@
+ De gemiddelde leeftijd in deze studie was <NUM> jaar en de MMSE-score varieerde van <NUM> tot <NUM> ( gemiddeld <NUM> ) .   

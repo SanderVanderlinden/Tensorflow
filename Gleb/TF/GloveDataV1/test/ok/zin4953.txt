@@ -1,0 +1,1 @@
+ Deze PC software werkt in een Server - Client toepassing en biedt de gebruiker een overzichtelijke <UNK>[nounsg] bij grotere installaties en multisite toepassingen .   

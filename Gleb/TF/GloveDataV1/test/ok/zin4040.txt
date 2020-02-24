@@ -1,0 +1,1 @@
+ Dit is in de versies lager dan FileMaker <NUM> heel makkelijk terug te vinden in het Overview window van de Access Privileges : dit is het venster waarin in <NUM> kolommen getoond wordt welke groepen met welke wachtwoorden al dan niet toegang hebben tot bepaalde lay-outs en bepaalde velden .   

@@ -1,0 +1,1 @@
+ De trein met het hoogste aantal reizigers , trein nr. <NUM> van <NUM> uur , telt <NUM> reizigers , terwijl men op de trein van <NUM> uur bijvoorbeeld <NUM> reizigers telt .   

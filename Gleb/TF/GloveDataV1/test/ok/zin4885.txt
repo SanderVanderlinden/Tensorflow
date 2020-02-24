@@ -1,0 +1,1 @@
+ Dit schip deed dienst als carg o , <NUM> ton brut o , een lengte van <NUM> m , een breedte van <NUM> m en een diepgang van <NUM> m. Het schip was uitgerust met een <NUM> - cilinder dieselmotor en haalde <NUM> knopen .   

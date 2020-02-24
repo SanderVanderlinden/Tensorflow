@@ -1,0 +1,1 @@
+ Snijd uit het gekleurd tekenpapier strookjes van <NUM> cm breed en <NUM> cm lang .   

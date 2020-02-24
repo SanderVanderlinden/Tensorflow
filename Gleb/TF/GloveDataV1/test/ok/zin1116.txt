@@ -1,0 +1,1 @@
+ De jeugdrechter kan gemeenschapsdienst opleggen bij beschikking voor maximaal <NUM> werkuren of bij vonnis voor maximaal <NUM> uren .   

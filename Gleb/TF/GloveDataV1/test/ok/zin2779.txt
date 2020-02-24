@@ -1,0 +1,1 @@
+ De penthouse omvat een inkomhal , een apart toilet , een ruimte voor vestiaire , <NUM> slaapkamers , <NUM> badkamers met bad of douche , een open keuken volledig geïnstalleerd , een aparte berging en een lichtrijke leefruimte .   

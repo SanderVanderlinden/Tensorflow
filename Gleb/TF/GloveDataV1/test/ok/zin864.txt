@@ -1,0 +1,1 @@
+ Bodem <NUM> x <NUM> cm. Hoogte <NUM> cm. Vlieggat <NUM> mm. Op <NUM> cm. boven de bodem .   

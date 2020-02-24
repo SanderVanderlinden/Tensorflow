@@ -1,0 +1,1 @@
+ De duatlon bedraagt <NUM> km lopen , <NUM> km fietsen en <NUM> km lopen .   

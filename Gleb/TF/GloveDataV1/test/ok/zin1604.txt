@@ -1,0 +1,1 @@
+ Echter is <NUM> seconden nog vrij veel , aangezien nadien nog veel meer filters gebruikt zullen worden en de performantie verder achteruit zal gaan .   

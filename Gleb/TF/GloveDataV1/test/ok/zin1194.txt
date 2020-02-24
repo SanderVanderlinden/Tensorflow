@@ -1,0 +1,1 @@
+ De huidige periodieke tabel bevat meer dan <NUM> elementen , waarvan <NUM> natuurlijke ( de overige worden kunstmatig geproduceerd door een kernreactie ) .   

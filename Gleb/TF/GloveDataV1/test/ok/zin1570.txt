@@ -1,0 +1,1 @@
+ Dit betekent een daling van <NUM> % ten opzichte van het <NUM> semester van <NUM> en een daling met <NUM> % ten opzichte van het <NUM> semester van <NUM> .   

@@ -1,0 +1,1 @@
+ De prijs bedraagt de <NUM> nacht <NUM> € voor <NUM> personen .   

@@ -1,0 +1,1 @@
+ De kans om in cel ( &quot; term <NUM> &quot; , &quot; periode <NUM> &quot; ) te komen , gegeven dat de nulhypothese klopt , wordt dan berekend als <NUM> % * <NUM> % = <NUM> % .   

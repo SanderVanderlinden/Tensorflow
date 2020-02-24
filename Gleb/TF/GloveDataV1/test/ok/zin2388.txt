@@ -1,0 +1,1 @@
+ Bij de Anciens stagneert het aantal leden op <NUM> , bij de Kids stijgt het aantal leden naar <NUM> , samen <NUM> leden !   

@@ -1,0 +1,1 @@
+ - De functiegroep is de groep ( <NUM> - <NUM> ) waarin de bedrijfsfunctie van een werknemer wordt ingedeeld na vergelijking van diens bedrijfsfunctie met een referentiefunctie .   

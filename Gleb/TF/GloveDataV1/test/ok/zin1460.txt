@@ -1,0 +1,1 @@
+ Daarvoor heb je dan een eenvoudige web-editor nodig om de tekst te maken , en een eenvoudig ftp-programma om de pagina op je site te kopieren .   

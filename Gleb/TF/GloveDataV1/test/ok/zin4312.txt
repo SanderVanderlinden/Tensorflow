@@ -1,0 +1,1 @@
+ ( categorie <NUM> <NUM> ) In het andere geval zijn structurele aanpassingen vereist .   

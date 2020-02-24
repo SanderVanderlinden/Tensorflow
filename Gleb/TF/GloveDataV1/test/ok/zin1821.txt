@@ -1,0 +1,1 @@
+ <NUM> August Daelman , geboren op <NUM> juli <NUM> in Aalst .   

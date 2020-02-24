@@ -1,0 +1,1 @@
+ Deze indicator geeft het aantal werkplekken weer , zoals gerapporteerd op het moment van de bevraging , gedeeld door het aantal koppen in het desbetreffende jaar .   

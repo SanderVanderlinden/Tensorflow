@@ -1,0 +1,1 @@
+ De gemiddelde snelheid die er gereden werd , was <NUM> km / u , wat dus iets te snel is omdat er slechts <NUM> km / u mag gereden worden . <NUM> % van de mensen hield zich wel aan de <NUM> km / u en <NUM> % zat tussen de <NUM> en de <NUM> km / u .   

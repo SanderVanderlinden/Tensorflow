@@ -1,0 +1,1 @@
+ <NUM> dagen , <NUM> uren , <NUM> minuten , <NUM> seconden tot Kamp Vaulx <NUM> .   

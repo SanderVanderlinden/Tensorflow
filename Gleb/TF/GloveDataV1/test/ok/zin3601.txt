@@ -1,0 +1,1 @@
+ Doe dit voor tenminste <NUM> tot <NUM> seconden .   

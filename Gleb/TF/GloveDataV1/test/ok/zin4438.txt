@@ -1,0 +1,1 @@
+ Dit heeft tot gevolg dat het pensioen van de maand december behoort tot de inkomsten van dat nieuwe jaar . periode : pensioen van december <NUM> ( deze werd betaald op de <NUM> werkdag van januari <NUM> ) tot en met november <NUM> .   

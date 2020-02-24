@@ -1,0 +1,1 @@
+ <NUM> <NUM> De secretaris van de V.B.C. brengt de leden uiterlijk <NUM> dagen voor de vergadering op de hoogte van de agenda A <NUM> .   

@@ -1,0 +1,1 @@
+ Afmeting beeld <NUM> x <NUM> mm. Windows <NUM> <NUM> CE / UNIX .   

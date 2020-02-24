@@ -1,0 +1,1 @@
+ <NUM> druk op MAX : langzaam naar de max lichtintensiteit .   

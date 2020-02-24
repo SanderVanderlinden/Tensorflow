@@ -1,0 +1,1 @@
+ De intrestaftrek houdt simpel gesteld in dat u de betaalde intresten mag aftrekken van ontvangen onroerende inkomsten ( echte huurinkomsten bij beroepsmatige verhuur of het geïndexeerde kadastrale inkomen verhoogd met <NUM> % bij privé verhuur ) .   

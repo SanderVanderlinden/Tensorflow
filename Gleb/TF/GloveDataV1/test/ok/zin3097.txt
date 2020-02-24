@@ -1,0 +1,1 @@
+ De bank heeft gemeld dat nog <NUM> EUR ( op <NUM> november <NUM> ) openstond .   

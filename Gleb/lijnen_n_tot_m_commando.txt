@@ -1,0 +1,2 @@
+voorbeeld voor 10000 tot 15000
+sed -n '10000,15000p' nlcow_pos_unknown_added.txt > lijn_10000_15000.txt
