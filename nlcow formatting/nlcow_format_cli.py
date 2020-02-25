@@ -142,18 +142,19 @@ def combine_unknown(input_file1, input_file2, output_file):
                 #output += word
                 None #doe niks
             elif word == "<UNK>":
-                output += word + "[" + contents2[line_index][word_index] + "]"
+                output += word.lower() + "[" + contents2[line_index][word_index] + "]"
             elif contents2[line_index][word_index] == "num__card" or contents2[line_index][word_index] == "num__ord" :
                 output += "<NUM>"
             else:
-                output += word
+                output += word.lower()
             output += " "
             word_index += 1
         output += "\n"
         line_index += 1
 
     with open(output_file, 'w') as file:
-        file.write(output)
+        for line in output.splitlines():
+            file.write(line.strip() + "\n")
 
 dirpath = os.getcwd()
 
@@ -163,9 +164,9 @@ pos_file = dirpath + '\\' + sys.argv[3]
 minimal_occurrences = sys.argv[4]
 
 #tok_to_lem_dict(tok_file, lem_file, "$PBS_O_WORKDIR/nlcow_tok_lem_dict.txt")
-tok_to_lem_dict(tok_file, lem_file, dirpath + "\\nlcow_tok_lem_dict.txt")
-word_count(tok_file, dirpath + "\\nlcow_word_count.txt")
-filter_uncommon(tok_file, dirpath + "\\nlcow_word_count.txt", dirpath + "\\nlcow_tok_lem_dict.txt", dirpath + "\\nlcow_uncommon_filtered.txt", minimal_occurrences)
-combine(dirpath + "\\nlcow_uncommon_filtered.txt", pos_file, dirpath + "\\nlcow_pos_added.txt")
-combine_unknown(dirpath + "\\nlcow_uncommon_filtered.txt", pos_file, dirpath + "\\nlcow_pos_unknown_added.txt")
+#tok_to_lem_dict(tok_file, lem_file, dirpath + "\\nlcow_tok_lem_dict.txt")
+#word_count(tok_file, dirpath + "\\nlcow_word_count.txt")
+#filter_uncommon(tok_file, dirpath + "\\nlcow_word_count.txt", dirpath + "\\nlcow_tok_lem_dict.txt", dirpath + "\\nlcow_uncommon_filtered.txt", minimal_occurrences)
+#combine(dirpath + "\\nlcow_uncommon_filtered.txt", pos_file, dirpath + "\\nlcow_pos_added.txt")
+combine_unknown(dirpath + "\\nlcow_uncommon_filtered.txt", pos_file, dirpath + "\\nlcow_final_parse.txt")
 
