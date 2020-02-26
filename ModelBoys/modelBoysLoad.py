@@ -1,5 +1,7 @@
 import tensorflow as tf
 from tensorflow import keras
+import os
+
 
 def loss(input, target):
     return tf.keras.losses.sparse_categorical_crossentropy(input, target, from_logits=True)
@@ -69,8 +71,8 @@ def generate_text(model, start_string):
         text_generated.append(idx2word[predicted_id])
     return start_string + ' ' + ' '.join(text_generated)
 
-
-vector_file = "C:/Users/Sander/Documents/KUL/Toegepaste Informatica/2019 - 2020/Afstudeerproject/NLCOW data/glove50_1000.txt"
+dirpath = os.getcwd()
+vector_file = dirpath + "/glove50_1000.txt"
 word2indx, idx2word = make_indices(vector_file)
 
 print(generate_text(pipikaka, start_string='de tijd is er weer bijna om ggggggggggggggggggg'))
