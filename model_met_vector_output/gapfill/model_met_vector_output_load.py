@@ -1,28 +1,15 @@
+'''
+dit script test een getraind model
+gebruik dit script als volgt:
+python vector_file.txt output_model.h5
+waarbij vector_file.txt dezelfde file is als de vectorfile waarmee het model getraind is.
+'''
+
+import os
+import sys
 import numpy as np
-import tensorflow as tf
 from tensorflow import keras
 from scipy import spatial
-
-'''
-def make_token_vector_dictionary(v_file):
-    print('\nmaking token to vector dictionary...')
-    with open(v_file, 'r', errors='ignore') as file:
-        vec_per_token = dict()
-        for line in file:
-            line_array = line.split()
-            try:
-                vec_per_token[line_array[0]] = [[float(x)] for x in line_array[1:]]
-                #vec_per_token[line_array[0]] = [float(x) for x in line_array[1:]]
-            except ValueError:
-                print("VALUE-ERROR!!!!!")
-
-    tok_vector_dimension = len(vec_per_token[next(iter(vec_per_token))])
-    vec_per_token["<UNK>"] = [[0.000001]] * tok_vector_dimension
-    am_of_token_vectors = len(vec_per_token)
-    print(
-        'Found {0} token vectors, each with dimension of {1}.'.format(am_of_token_vectors, tok_vector_dimension))
-    return vec_per_token, am_of_token_vectors, tok_vector_dimension
-'''
 
 def make_token_vector_dictionary(v_file):
     print('\nmaking token to vector dictionary...')
@@ -51,8 +38,7 @@ def make_token_vector_dictionary(v_file):
     tok_vector_dimension = len(vec_per_token[next(iter(vec_per_token))])
     vec_per_token["<UNK>"] = [0.0] * tok_vector_dimension
     am_of_token_vectors = len(vec_per_token)
-    print(
-        'Found {0} token vectors, each with dimension of {1}.'.format(am_of_token_vectors, tok_vector_dimension))
+    print('Found {0} token vectors, each with dimension of {1}.'.format(am_of_token_vectors, tok_vector_dimension))
     return vec_per_token, index_per_token, token_per_index, am_of_token_vectors, tok_vector_dimension
 
 def sentence_to_vector_array(sentence, gap_index):
@@ -171,9 +157,10 @@ def print_beste_match_index(zin, woord1, woord2, woord3):
         oplossing = woord3
     print("de beste match is: {0}!".format(oplossing))
 
-model = keras.models.load_model('lekkerpik.h5')
+model = keras.models.load_model(sys.argv[2])
 
-vector_file = "C:/Users/Sander/Documents/KUL/Toegepaste Informatica/2019 - 2020/Afstudeerproject/NLCOW data/glove_f50_1000.txt"
+dirpath = os.getcwd()
+vector_file = dirpath + "/" + sys.argv[1]
 vector_per_token, index_per_token, token_per_index, amount_of_token_vectors, token_vector_dimension = make_token_vector_dictionary(vector_file)
 gap_index = 4 #Het model is getraind voor index 5
 beste_aantal_matches = 10

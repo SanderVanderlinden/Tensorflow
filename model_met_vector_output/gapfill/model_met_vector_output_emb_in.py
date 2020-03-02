@@ -188,4 +188,4 @@ model = train_model_embeddings((len(index_per_token)), token_vector_dimension, s
 
 #########################################################################################################################
 
-model.save('lekkerpik.h5')
+model.save(sys.argv[3])
