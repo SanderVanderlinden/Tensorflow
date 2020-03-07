@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TensorFlow</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="main.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    </head>
+<body>
+
+<header>
+    <h1>Tensorflow</h1>
+    <nav>
+        <ul class="nav_links">
+            <li><a href="glove_word2vec.html">Glove-Word2Vec</a></li>
+            <li><a href="next_words.html">Predict words</a></li>
+        </ul>
+    </nav>
+    
+</header>
+
+
+<h3 class="h">Predicting next words after a giving sentence</h3>
+
+<label>Sentence</label>
+<input type="text" name="sentence" id="sentence" class="input_sentence">
+
+<label>Amount of words to predict</label>
+<input type="text" name="amount_predict" id="amount_predict" class="input_amount">
+
+<button class="btn-1" type="submit" onclick="predictNextWords()" id="buton">Button</button><br><br><br>
+
+<div id="predicted_words">
+    <p>Result: </p>
+</div>
+
+<h3 class="h">Predict the missing word in the sentence by giving 3 options</h3>
+<label>Word 1</label> <input type="text" id="pw1">
+<label>Word 2</label> <input type="text" id="pw2">
+<label>Word 3</label> <input type="text" id="pw3">
+
+<button class="btn-1" type="submit" onclick="gap_fill()">Button</button><br><br><br>
+<label>Sentence</label>
+<input type="text" id="zin" class="input_sentence">
+<div id="gap_word">
+    <p>de beste match is:</p>
+</div>
+</body>
+</html>

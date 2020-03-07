@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TensorFlow</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="main.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    </head>
+<body>
+
+<header>
+    <h1>Tensorflow</h1>
+    <nav>
+        <ul class="nav_links">
+            <li><a href="glove_word2vec.html">Glove-Word2Vec</a></li>
+            <li><a href="next_words.html">Predict words</a></li>
+        </ul>
+    </nav>
+    
+</header>
+
+
+<h3 class="h">Difference between Glove and Word2Vec</h3>
+
+
+<label for="word">Give word:</label>
+<input type="text" id="word" name="word">
+
+<label for="amount">Amount</label>
+<select id="drop_amount" class="dropdown">
+    <option value="1">1</option>
+    <option value="5">5</option>
+    <option value="10">10</option>
+    <option value="20">20</option>
+</select>
+<label for="dimensions">Dimensions</label>
+<select id="dimension" class="dropdown">
+    <option value="50">50</option>
+    <option value="150">150</option>
+    <option value="300">300</option>
+</select>
+
+<button class="btn-1" type="submit" onclick="getWords()" id="buton">Button</button><br><br><br>
+
+<div class="grid">
+    <h3>Glove</h3>
+    <h3>Word2Vec</h3>
+    <div class="grid-left" id="grid-left">
+        <p>test</p>
+    </div>
+
+    <div class="grid-right" id="grid-right">
+        <p>test2</p>
+    </div>
+
+</div><br><br>
+
+<label>Similarity between 2 words</label>
+<input type="text" id="w1">
+<input type="text" id="w2">
+<button class="btn-1" type="submit" onclick="similarity()" id="btn2">Calculate</button>
+
+<div id="gs">
+    <p>Glove: </p>
+</div>
+
+<div id="w2v">
+    <p>Word2Vec: </p>
+</div>
+
+
+</body>
+</html>
