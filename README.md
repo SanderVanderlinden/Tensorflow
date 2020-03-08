@@ -10,3 +10,11 @@ https://github.com/SanderVanderlinden/Tensorflow/tree/master/model_met_woord_out
 
 gapfill model met vector output:
 https://github.com/SanderVanderlinden/Tensorflow/tree/master/model_met_vector_output/gapfill
+
+Lorem Ipsum model train file (bepaalde waarden aan te passen voor de locatie van het corpus)
+https://github.com/SanderVanderlinden/Tensorflow/blob/master/Simon/nice.py
+
+In deze Simon folder zijn ook de files die ik gebruikt heb om telken als ik een model getrained had dat te testen ( main.py)
+en alsook het .pbs script voor mijn nice.p te runnen op de Supercomputer :)
+
+
