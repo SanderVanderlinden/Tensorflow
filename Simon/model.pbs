@@ -1,0 +1,21 @@
+#!/bin/bash -l
+
+
+#PBS -l walltime=02:00:00
+
+#PBS -l nodes=4:ppn=36
+#PBS -N model_004
+#PBS -A lp_ucll_thesis
+#PBS -m abe
+#PBS -M simon.luyten@student.ucll.be
+
+
+module purge
+
+cd $PBS_O_WORKDIR
+
+conda deactivate
+conda activate Simon
+
+python nice.py
+
